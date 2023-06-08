@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="image/favicon.ico" type="image/x-icon">
+<head>
+  <title>培智华小资源中心</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <script src="js/script.js"></script>
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
+  
+
+  <header-component></header-component>
+
+  <nav class="nav-list">
+    <ul class="left-items">
+      <li><a href="index.html">悦读良馆</a></li>
+    </ul>
+    <ul class="right-items">
+      <li class="dropdown">
+        <a href="#" class="dropbtn" onclick="event.preventDefault();">活动 &#9662;</a>
+        <div class="dropdown-content">
+          <a href="activity2023.html">2023</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn" onclick="event.preventDefault();">资料 &#9662;</a>
+        <div class="dropdown-content">
+          <a href="organization.html">图书馆组织</a>
+          <a href="https://www.airitibooks.com/Home/Index">电子书借阅</a>
+        </div>
+      </li>
+      <li><a href="contact.html">联络</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="contact">
+      <h2 class="bold-text">联络我们</h2>
+      <div class="contact-info">
+        <p><strong>联络号码 :</strong> 0332162051</p>
+        <p><strong>邮址 :</strong> bbc6034@moe.edu.my</p>
+        <p><strong>地址 ：</strong> SJKC PHOOI TEE, SUNGAI PULAI, 45200 SABAK BERNAM, SELANGOR.
+        </p>
+      </div>
+    </section>
+    <div class="google-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.406777981022!2d100.91468351513386!3d3.7298473291828707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cb5e5684194d01%3A0xde1d889f9452f20a!2sSJKC%20Phooi%20Tee!5e0!3m2!1sen!2smy!4v1686138028185!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </main>
+
+  <footer-component></footer-component>>
+
+  <script>
+    // Register the toggle of nav list item
+    registerNavList()
+  </script>
+</body>
+</html>

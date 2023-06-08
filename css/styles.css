@@ -1,0 +1,214 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, main, footer {
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+article {
+  margin-bottom: 100px;
+  margin-left: 300px;
+}
+
+h1{
+  padding-top: 10px;
+}
+
+h2 {
+  color: #000000;
+}
+
+h2.bold-text {
+  font-weight: bold;
+}
+
+header {
+  background-color: #004b7e;
+  color: #fff;
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+footer {
+  background-color: #004b7e;
+  color: #fff;
+  text-align: center;
+}
+
+
+.header-image {
+  display: block;
+  width: 100%;
+  max-height: 300px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.nav-list a {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-list a:hover {
+  color: #004b7e; /* Change the color on hover */
+  /* Add additional effects like underline, background color, etc. */
+}
+
+.nav-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.left-items li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.left-items a{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.right-items li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 8px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-content a:hover {
+  background-color: #e2e2e2;
+}
+
+.dropdown.active .dropdown-content {
+  display: block;
+}
+
+.school-logo {
+  display: block;
+  margin: 0 auto;
+  max-height:100px; /* Adjust the maximum height as needed */
+  max-width: 100%;
+}
+
+#contact {
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 50px;
+}
+
+.contact-info {
+  margin: 0 auto;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.carousel-slider {
+  max-width: 800px; /* Set the maximum width of the carousel */
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.slider-image{
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.organization-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to the next row */
+  align-items: center; /* Align items horizontally in the center */
+  justify-content: flex-start; /* Align items to the left */
+  text-align: center;
+}
+
+.teacher {
+  flex-basis: 100%; /* Take up full width on a new row */
+  margin-bottom: 20px; /* Add space below the teacher image */
+}
+
+.student {
+  flex-basis: calc(33.33% - 20px); /* Set the width of each student div (3 students per row) */
+  margin-right: 20px; /* Add space between student images horizontally */
+  margin-bottom: 20px; /* Add space below each student image */
+}
+
+.teacher img,
+.student img {
+  width: 150px; /* Adjust the image size as needed */
+  height: 200px; /* Adjust the image size as needed */
+  object-fit: cover;
+  /* border-radius: 50%;  */
+}
+
+.google-map {
+  position: relative;
+  text-align: center;
+}
