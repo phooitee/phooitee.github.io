@@ -149,11 +149,14 @@ footer {
   background-color: #ffffff;
   margin-top: 30px;
   margin-bottom: 30px;
-  text-align: center;
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Horizontally center the content */
+  text-align: left; /* Keep the text aligned to the left */
 }
-
+ 
 #contact h2 {
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .contact-info {
