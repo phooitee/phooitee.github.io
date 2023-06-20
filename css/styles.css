@@ -190,11 +190,16 @@ footer {
   align-items: center; /* Align items horizontally in the center */
   justify-content: flex-start; /* Align items to the left */
   text-align: center;
+  font-family: "KaiTi";
 }
 
 .teacher {
   flex-basis: 100%; /* Take up full width on a new row */
   margin-bottom: 20px; /* Add space below the teacher image */
+}
+
+.student h3 {
+  margin-top: 10px;
 }
 
 .student {
