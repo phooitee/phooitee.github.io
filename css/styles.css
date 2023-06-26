@@ -26,7 +26,7 @@ nav ul li a {
 }
 
 main {
-  background-color: #ffffff;
+  background-color: #eeb92925;
 }
 
 article {
@@ -42,12 +42,13 @@ h2 {
   color: #000000;
 }
 
-h2.bold-text {
+h2.title {
   font-weight: bold;
+  margin-bottom: 40px;
 }
 
 header {
-  background-color: #004b7e;
+  background-color: #755b12;
   color: #fff;
   padding: 15px;
   position: relative;
@@ -56,7 +57,7 @@ header {
 }
 
 footer {
-  background-color: #004b7e;
+  background-color: #755b12;
   color: #fff;
   text-align: center;
 }
@@ -73,6 +74,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 0 50px;
+  background-color: #eeb92925;
 }
 
 .nav-list a {
@@ -83,7 +85,7 @@ footer {
 }
 
 .nav-list a:hover {
-  color: #004b7e; /* Change the color on hover */
+  color: #755b12 /* Change the color on hover */
   /* Add additional effects like underline, background color, etc. */
 }
 
@@ -146,7 +148,6 @@ footer {
 }
 
 #contact {
-  background-color: #ffffff;
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex; /* Use flexbox layout */
@@ -168,8 +169,8 @@ footer {
 }
 
 .carousel-slider {
-  max-width: 800px; /* Set the maximum width of the carousel */
-  max-height: 600px;
+  max-width: 1200px; /* Set the maximum width of the carousel */
+  max-height: 900px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 80px;
@@ -178,45 +179,42 @@ footer {
 .slider-image{
   width: auto;
   height: auto;
-  max-width: 800px;
-  max-height: 600px;
+  max-width: 1200px;
+  max-height: 900px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.organization-container {
-  display: flex;
-  flex-wrap: wrap; /* Allow flex items to wrap to the next row */
-  align-items: center; /* Align items horizontally in the center */
-  justify-content: flex-start; /* Align items to the left */
-  text-align: center;
-  font-family: "KaiTi";
-}
-
-.teacher {
-  flex-basis: 100%; /* Take up full width on a new row */
-  margin-bottom: 20px; /* Add space below the teacher image */
-}
-
-.student h3 {
-  margin-top: 10px;
-}
-
-.student {
-  flex-basis: calc(33.33% - 20px); /* Set the width of each student div (3 students per row) */
-  margin-right: 20px; /* Add space between student images horizontally */
-  margin-bottom: 20px; /* Add space below each student image */
-}
-
-.teacher img,
-.student img {
-  width: 150px; /* Adjust the image size as needed */
-  height: 200px; /* Adjust the image size as needed */
-  object-fit: cover;
-  /* border-radius: 50%;  */
 }
 
 .google-map {
   position: relative;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon-link {
+  text-decoration: none;
+  text-align: center;
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Horizontally center the content */
+}
+
+.icon-link img {
+  width: 50px;
+  height: 50px;
+}
+
+.pdf-container {
+  width: 100%;
+  height: 100vh; /* Adjust the height based on your layout */
+}
+
+.organization-image-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items horizontally at the center */
+}
+  
+.organization-image-container img {
+    margin-bottom: 20px;
+    max-width: 900px;
 }
