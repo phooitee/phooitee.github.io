@@ -47,6 +47,8 @@ h2.title {
   margin-bottom: 40px;
 }
 
+/* header & footer */
+
 header {
   background-color: #755b12;
   color: #fff;
@@ -69,6 +71,8 @@ footer {
   max-height: 300px; /* Adjust the height as needed */
   object-fit: cover;
 }
+
+/* navigation bar */
 
 .nav-list {
   display: flex;
@@ -102,7 +106,7 @@ footer {
 }
 
 .left-items a{
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -140,12 +144,7 @@ footer {
   display: block;
 }
 
-.school-logo {
-  display: block;
-  margin: 0 auto;
-  max-height:100px; /* Adjust the maximum height as needed */
-  max-width: 100%;
-}
+/* contact */
 
 #contact {
   margin-top: 30px;
@@ -168,23 +167,6 @@ footer {
   margin-bottom: 10px;
 }
 
-.carousel-slider {
-  max-width: 1200px; /* Set the maximum width of the carousel */
-  max-height: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 80px;
-}
-
-.slider-image{
-  width: auto;
-  height: auto;
-  max-width: 1200px;
-  max-height: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .google-map {
   position: relative;
   text-align: center;
@@ -203,10 +185,26 @@ footer {
   height: 50px;
 }
 
-.pdf-container {
-  width: 100%;
-  height: 100vh; /* Adjust the height based on your layout */
+/* slider */
+
+.carousel-slider {
+  max-width: 1200px; /* Set the maximum width of the carousel */
+  max-height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
 }
+
+.slider-image{
+  width: auto;
+  height: auto;
+  max-width: 1200px;
+  max-height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* organization */
 
 .organization-image-container{
   display: flex;
@@ -217,4 +215,44 @@ footer {
 .organization-image-container img {
     margin-bottom: 20px;
     max-width: 900px;
+}
+
+/* e_boook */
+.logo {
+  max-width: 150px;
+  max-height: 150px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+/* activity 2023 */
+
+.activity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+  margin-top: 30px;
+}
+
+.activity img {
+  max-width: 400px;
+  max-height: 450px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.activity-img {
+  margin-right: 50px;
+}
+
+.activity .activity-text {
+  margin-right: 100px;
+}
+
+.activity .activity-text h2{
+  font-weight:bold ;
+  
+}
+.activity .activity-text h5{
+  margin-top: 40px;
 }

@@ -11,7 +11,7 @@ class HeaderComponent extends HTMLElement {
         </style>
         <img src="image/header_img.JPG" alt="SJK(C) Phooi Tee" class="header-image">
         <header>
-            <h2>培智华小资源中心</h2>
+            <h1>培智华小资源中心</h1>
         </header>
       `;
     }
